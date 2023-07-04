@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+    </div>
+  </body>
+</html>
+<style>
+  .container {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+    width: 20%;
+    margin: auto;
+  }
+  .items {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+  }
+</style>
